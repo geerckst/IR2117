@@ -15,14 +15,10 @@ int main()
 	std::cout << "Enter a number: " << std::endl;
 	int num;
 	std::cin >> num;
-	if (num >= 1){
-		std::cout << suma(num) << std::endl;
-		return 0;
-	}else{
-		std::cout << "Error" << std::endl;
-		return 1;	
+	while (num < 1){
+		std::cout << "Error, enter another number: ";
+		std::cin >> num;
 	}
-
-	
-	
+	std::cout << suma(num) << std::endl;
+	return 0;		
 }
