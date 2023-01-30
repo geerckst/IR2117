@@ -1,14 +1,19 @@
-#include  <iostream>
+#include <iostream>
 
-int main()
-{
+int fsum(int fnum){	
+	int fsum=0;
+	for(int i=0; i<=fnum;i++){
+		fsum+=i;
+	}
+	return fsum;
+}
+	
+int main(){
 	std::cout << "Enter a number: ";
 	int num;
-	int sum = 0;
 	std::cin >> num;
-	for(int i=0; i<=num;i++){
-		sum += i;
-	}
+	int sum = fsum(num);
 	std::cout << "The sum from 1 to " << num << " is " << sum << std::endl;
 	return 0;
-}
+	}
+	
