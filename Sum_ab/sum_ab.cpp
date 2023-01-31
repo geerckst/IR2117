@@ -13,7 +13,7 @@ int main(){
 	do {
 		std::cout << "Enter b number >=1: ";
 		std::cin >> b;
-	} while(b<1);
+	} while(b<a);
 	
 	int sum = 0;
 	
