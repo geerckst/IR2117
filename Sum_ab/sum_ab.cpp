@@ -7,6 +7,12 @@ int main(){
 	std::cout << "Enter a number >=1: ";
 	std::cin >> a;
 	
+	while(a<1){
+		std::cout << "Error, a is smaller than 1, try again!" << "\n";
+		std::cout << "Enter a number >=1: ";
+		std::cin >> a;
+	}
+	
 	std::cout << "Enter b number >=1: ";
 	std::cin >> b;
 	
