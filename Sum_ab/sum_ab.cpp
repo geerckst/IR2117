@@ -22,6 +22,12 @@ int main(){
 		std::cin >> b;
 	}
 	
+	while(b<a){
+		std::cout << "Error, b is smaller than a, try again!" << "\n";
+		std::cout << "Enter b number >=1: ";
+		std::cin >> b;
+	}
+	
 	int sum = 0;
 	
 	for(int i=a; i<=b; i++){
