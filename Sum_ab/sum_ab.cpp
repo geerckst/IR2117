@@ -7,26 +7,8 @@ int main(){
 	std::cout << "Enter a number >=1: ";
 	std::cin >> a;
 	
-	while(a<1){
-		std::cout << "Error, a is smaller than 1, try again!" << "\n";
-		std::cout << "Enter a number >=1: ";
-		std::cin >> a;
-	}
-	
 	std::cout << "Enter b number >=1: ";
 	std::cin >> b;
-	
-	while(b<1){
-		std::cout << "Error, b is smaller than 1, try again!" << "\n";
-		std::cout << "Enter b number >=1: ";
-		std::cin >> b;
-	}
-	
-	while(b<a){
-		std::cout << "Error, b is smaller than a, try again!" << "\n";
-		std::cout << "Enter b number >=1: ";
-		std::cin >> b;
-	}
 	
 	int sum = 0;
 	
@@ -35,5 +17,6 @@ int main(){
 	}
 	
 	std::cout << "The sum from " << a << " to " << b << " is " << sum << "\n";
+	return 0;
 }	
 
