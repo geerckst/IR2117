@@ -17,9 +17,6 @@ find_package(std_msgs REQUIRED)
 add_executable(sum sum.cpp)
 ament_target_dependencies(sum rclcpp std_msgs)
 
-add_executable(subscriber subscriber.cpp)
-ament_target_dependencies(subscriber rclcpp std_msgs)
-
 install(TARGETS
   sum
   DESTINATION lib/${PROJECT_NAME}

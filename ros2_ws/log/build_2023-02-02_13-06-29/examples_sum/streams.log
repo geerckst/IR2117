@@ -1,0 +1,51 @@
+[0.033s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/build/examples_sum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/examples/sum -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/examples_sum
+[0.074s] -- The C compiler identification is GNU 9.4.0
+[0.114s] -- The CXX compiler identification is GNU 9.4.0
+[0.118s] -- Check for working C compiler: /usr/bin/cc
+[0.177s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.177s] -- Detecting C compiler ABI info
+[0.238s] -- Detecting C compiler ABI info - done
+[0.246s] -- Detecting C compile features
+[0.246s] -- Detecting C compile features - done
+[0.249s] -- Check for working CXX compiler: /usr/bin/c++
+[0.325s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.326s] -- Detecting CXX compiler ABI info
+[0.403s] -- Detecting CXX compiler ABI info - done
+[0.412s] -- Detecting CXX compile features
+[0.412s] -- Detecting CXX compile features - done
+[0.415s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.439s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.439s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.608s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.641s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.645s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.706s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.735s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.795s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.835s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.836s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.839s] -- Looking for pthread.h
+[0.930s] -- Looking for pthread.h - found
+[0.931s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.008s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.009s] -- Looking for pthread_create in pthreads
+[1.067s] -- Looking for pthread_create in pthreads - not found
+[1.067s] -- Looking for pthread_create in pthread
+[1.141s] -- Looking for pthread_create in pthread - found
+[1.142s] -- Found Threads: TRUE  
+[1.326s] -- Configuring done
+[1.327s] CMake Error at CMakeLists.txt:20 (add_executable):
+[1.327s]   Cannot find source file:
+[1.327s] 
+[1.328s]     subscriber.cpp
+[1.328s] 
+[1.328s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[1.328s]   .hpp .hxx .in .txx
+[1.328s] 
+[1.328s] 
+[1.328s] CMake Error at CMakeLists.txt:20 (add_executable):
+[1.328s]   No SOURCES given to target: subscriber
+[1.328s] 
+[1.328s] 
+[1.328s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[1.335s] Invoked command in '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/build/examples_sum' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/examples/sum -DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2117/ros2_ws/install/examples_sum
