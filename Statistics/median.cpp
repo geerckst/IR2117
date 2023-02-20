@@ -12,6 +12,7 @@ int main(int argc, char** argv){
         std::cin >> element;
     }
     std::sort(elements.begin(), elements.end());
+    int middle = elements.size()/2;
     std::cout << "Median: : " << m << std::endl;
     return 0;
 }
