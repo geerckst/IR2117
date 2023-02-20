@@ -1,0 +1,9 @@
+make[2]: *** Se borra el archivo 'CMakeFiles/subscriber.dir/subscriber.cpp.o'
+make[2]: *** Se borra el archivo 'CMakeFiles/publisher.dir/publisher.cpp.o'
+make[2]: *** [CMakeFiles/subscriber.dir/build.make:63: CMakeFiles/subscriber.dir/subscriber.cpp.o] Interrupción
+make[2]: *** [CMakeFiles/publisher.dir/build.make:63: CMakeFiles/publisher.dir/publisher.cpp.o] Interrupción
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/subscriber.dir/all] Interrupción
+make[1]: *** wait: No hay ningún proceso hijo.  Alto.
+make[1]: *** Se espera a que terminen otras tareas....
+make[1]: *** wait: No hay ningún proceso hijo.  Alto.
+make: *** [Makefile:141: all] Error 2

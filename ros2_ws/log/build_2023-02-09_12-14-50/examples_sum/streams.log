@@ -1,0 +1,11 @@
+[0.033s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/build/examples_sum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117/ros2_ws/build/examples_sum -- -j6 -l6
+[0.068s] [35m[1mScanning dependencies of target sum[0m
+[0.086s] [ 50%] [32mBuilding CXX object CMakeFiles/sum.dir/sum.cpp.o[0m
+[1.037s] [01m[K/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/examples/sum/sum.cpp:[m[K In function ‘[01m[Kvoid topic_callback(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.037s] [01m[K/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/examples/sum/sum.cpp:12:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope
+[1.037s]    12 |   [01;31m[Kpublisher[m[K->publish(message);
+[1.037s]       |   [01;31m[K^~~~~~~~~[m[K
+[2.272s] make[2]: *** [CMakeFiles/sum.dir/build.make:63: CMakeFiles/sum.dir/sum.cpp.o] Error 1
+[2.272s] make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/sum.dir/all] Error 2
+[2.272s] make: *** [Makefile:141: all] Error 2
+[2.275s] Invoked command in '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/build/examples_sum' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117/ros2_ws/build/examples_sum -- -j6 -l6

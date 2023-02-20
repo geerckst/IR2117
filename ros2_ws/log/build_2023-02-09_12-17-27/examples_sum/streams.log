@@ -1,0 +1,10 @@
+[0.035s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/build/examples_sum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117/ros2_ws/build/examples_sum -- -j6 -l6
+[0.068s] [35m[1mScanning dependencies of target sum[0m
+[0.086s] [ 50%] [32mBuilding CXX object CMakeFiles/sum.dir/sum.cpp.o[0m
+[1.052s] [01m[K/home/usuario/Documentos/GitHub/IR2117/ros2_ws/src/examples/sum/sum.cpp:6:1:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kauto publisher[m[K’ has no initializer
+[1.052s]     6 | [01;31m[Kauto[m[K publisher;
+[1.052s]       | [01;31m[K^~~~[m[K
+[2.296s] make[2]: *** [CMakeFiles/sum.dir/build.make:63: CMakeFiles/sum.dir/sum.cpp.o] Error 1
+[2.296s] make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/sum.dir/all] Error 2
+[2.297s] make: *** [Makefile:141: all] Error 2
+[2.299s] Invoked command in '/home/usuario/Documentos/GitHub/IR2117/ros2_ws/build/examples_sum' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117/ros2_ws/build/examples_sum -- -j6 -l6
