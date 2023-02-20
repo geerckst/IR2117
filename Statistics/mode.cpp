@@ -21,8 +21,12 @@ int main(int argc, char** argv){
             if (elements[i]==elements[j]){
                 count[j]++;
             }
+        if (count[j]>count[max]) {
+            max = j;
+        }    
         }
     }
+    m = max;
     std::cout << "Mode: : " << m << std::endl;
     return 0;
 }
