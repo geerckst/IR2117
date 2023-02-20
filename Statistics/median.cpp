@@ -13,6 +13,9 @@ int main(int argc, char** argv){
     }
     std::sort(elements.begin(), elements.end());
     int middle = elements.size()/2;
+    if (elements.size()%2!=0){
+        m = elements[middle];
+    }
     std::cout << "Median: : " << m << std::endl;
     return 0;
 }
