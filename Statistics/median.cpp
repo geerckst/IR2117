@@ -15,6 +15,8 @@ int main(int argc, char** argv){
     int middle = elements.size()/2;
     if (elements.size()%2!=0){
         m = elements[middle];
+    } else {
+        m = double((elements[middle]+elements[middle+1])/2);
     }
     std::cout << "Median: : " << m << std::endl;
     return 0;
