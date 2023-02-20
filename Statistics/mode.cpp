@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+
 int main(int argc, char** argv){
     double m=0, s=0;
     int n=0, element;
