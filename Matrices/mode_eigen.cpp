@@ -6,19 +6,22 @@ using Eigen::MatrixXd;
 using Eigen::VectorXd;
 
 int main(){
-  int n=0, element;
+    
+  int element, n=0;
   std::vector<int> elements;
-  std::cin >> element;
+  std::cin >> element; 
   while(not std::cin.eof()){
-    elements.push_back(element);
     n+=1;
+    elements.push_back(element);
     std::cin >> element;
   }
-  VectorXd v(elements.size());
-  for(int i=1; i<elements.size(); i++){
-    v << elements[i];    
+  
+  VectorXd v;
+  for (int i=0;i<elements.size();i++){
+     v.conservativeResize(i+1);
+     v[i] = elements[i];
   }
-    
+  
   std::cout << v << std::endl;
-
+  return 0;
 }
