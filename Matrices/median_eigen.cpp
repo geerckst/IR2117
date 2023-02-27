@@ -7,7 +7,8 @@ using Eigen::VectorXd;
 
 int main(){
     
-  int element, n=0, m=0;
+  int element, n=0;
+  double m=0.0;
   std::vector<int> elements;
   std::cin >> element; 
   while(not std::cin.eof()){
@@ -24,8 +25,13 @@ int main(){
   
   std::sort(v.data(), v.data()+v.size());
   
+  if(v.size() % 2 != 0){
+    m = v[v.size()/2]; 
+  } else {
+        
+  }
 
   
-  std::cout << v << std::endl;
+  std::cout << "Median: " << m << std::endl;
   return 0;
 }
