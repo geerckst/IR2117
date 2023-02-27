@@ -25,10 +25,11 @@ int main(){
   
   std::sort(v.data(), v.data()+v.size());
   
+  
   if(v.size() % 2 != 0){
     m = v[v.size()/2]; 
   } else {
-        
+    m = (v[v.size()/2] + v[v.size()/2-1])/2;    
   }
 
   
