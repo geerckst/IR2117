@@ -1,0 +1,55 @@
+[35m[1mScanning dependencies of target square_odom[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/square_odom.dir/src/square_odom.cpp.o[0m
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:8:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+    8 | void topic_callback(const [01;31m[Kstd_msgs[m[K::msg::stringSharedPtr msg)
+      |                           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:8:40:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+    8 | void topic_callback(const std_msgs::msg[01;31m[K::[m[KstringSharedPtr msg)
+      |                                        [01;31m[K^~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:8:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+    8 | void topic_callback[34m[K([m[Kconst std_msgs::msg[01;31m[K:[m[K[32m[K:[m[KstringSharedPtr msg)
+      |                    [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+      |                                        [32m[K)[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:8:40:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+    8 | void topic_callback(const std_msgs::msg[01;31m[K::[m[KstringSharedPtr msg)
+      |                                        [01;31m[K^~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:17:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   17 |   auto subscription = node->create_subscription<[01;31m[Kstd_msgs[m[K::msg::String>("odom", 10, topic_callback);
+      |                                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:17:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   17 |   auto subscription = node->[01;31m[Kcreate_subscription<std_msgs::msg::String>[m[K("odom", 10, topic_callback);
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:17:84:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_callback[m[K’ was not declared in this scope
+   17 |   auto subscription = node->create_subscription<std_msgs::msg::String>("odom", 10, [01;31m[Ktopic_callback[m[K);
+      |                                                                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:21:3:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ has not been declared
+   21 |   [01;31m[Knav_msgs[m[K::msg::Odometry message
+      |   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+   35 |     [01;31m[Kmessage[m[K.linear.x = linear_speed;
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:37:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope
+   37 |     [01;31m[Kpublisher[m[K->publish(message);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:39:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kloop_rate[m[K’ was not declared in this scope
+   39 |     [01;31m[Kloop_rate[m[K.sleep();
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+   45 |     [01;31m[Kmessage[m[K.linear.x = 0;
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:47:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope
+   47 |     [01;31m[Kpublisher[m[K->publish(message);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:49:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kloop_rate[m[K’ was not declared in this scope
+   49 |     [01;31m[Kloop_rate[m[K.sleep();
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:53:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+   53 |   [01;31m[Kmessage[m[K.linear.x = 0;
+      |   [01;31m[K^~~~~~~[m[K
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:55:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope
+   55 |   [01;31m[Kpublisher[m[K->publish(message);
+      |   [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/square_odom.dir/build.make:63: CMakeFiles/square_odom.dir/src/square_odom.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/square_odom.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

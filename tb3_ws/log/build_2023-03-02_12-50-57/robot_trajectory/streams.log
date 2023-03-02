@@ -1,0 +1,14 @@
+[0.015s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory': /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory -- -j6 -l6
+[0.056s] [35m[1mScanning dependencies of target square_odom[0m
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/square_odom.dir/src/square_odom.cpp.o[0m
+[1.174s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.174s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:26:27:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Knav_msgs::msg::Odometry message[m[K’
+[1.174s]    26 |   nav_msgs::msg::Odometry [01;31m[Kmessage[m[K;
+[1.174s]       |                           [01;31m[K^~~~~~~[m[K
+[1.174s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:25:29:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kgeometry_msgs::msg::Twist message[m[K’
+[1.174s]    25 |   geometry_msgs::msg::Twist [01;36m[Kmessage[m[K;
+[1.174s]       |                             [01;36m[K^~~~~~~[m[K
+[2.608s] make[2]: *** [CMakeFiles/square_odom.dir/build.make:63: CMakeFiles/square_odom.dir/src/square_odom.cpp.o] Error 1
+[2.608s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/square_odom.dir/all] Error 2
+[2.609s] make: *** [Makefile:141: all] Error 2
+[2.610s] Invoked command in '/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory' returned '2': /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory -- -j6 -l6

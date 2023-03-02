@@ -1,0 +1,34 @@
+[0.013s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory': /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory -- -j6 -l6
+[0.053s] [35m[1mScanning dependencies of target square_odom[0m
+[0.080s] [ 50%] [32mBuilding CXX object CMakeFiles/square_odom.dir/src/square_odom.cpp.o[0m
+[1.154s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:10:27:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ does not name a type
+[1.154s]    10 | void topic_callback(const [01;31m[Knav_msgs[m[K::msg::Odometry::SharedPtr msg)
+[1.154s]       |                           [01;31m[K^~~~~~~~[m[K
+[1.154s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:10:40:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[1.154s]    10 | void topic_callback(const nav_msgs::msg[01;31m[K::[m[KOdometry::SharedPtr msg)
+[1.155s]       |                                        [01;31m[K^~[m[K
+[1.155s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:10:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[1.155s]    10 | void topic_callback[34m[K([m[Kconst nav_msgs::msg[01;31m[K:[m[K[32m[K:[m[KOdometry::SharedPtr msg)
+[1.155s]       |                    [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+[1.155s]       |                                        [32m[K)[m[K
+[1.155s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:10:40:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+[1.155s]    10 | void topic_callback(const nav_msgs::msg[01;31m[K::[m[KOdometry::SharedPtr msg)
+[1.155s]       |                                        [01;31m[K^~[m[K
+[1.156s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.156s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:20:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[1.156s]    20 |   auto subscription = node->create_subscription<[01;31m[Kstd_msgs[m[K::msg::String>("odom", 10, topic_callback);
+[1.156s]       |                                                 [01;31m[K^~~~~~~~[m[K
+[1.156s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:20:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.156s]    20 |   auto subscription = node->[01;31m[Kcreate_subscription<std_msgs::msg::String>[m[K("odom", 10, topic_callback);
+[1.156s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.157s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:20:84:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_callback[m[K’ was not declared in this scope
+[1.157s]    20 | = node->create_subscription<std_msgs::msg::String>("odom", 10, [01;31m[Ktopic_callback[m[K);
+[1.158s]       |                                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.158s] 
+[1.165s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:25:3:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ has not been declared
+[1.165s]    25 |   [01;31m[Knav_msgs[m[K::msg::Odometry message;
+[1.165s]       |   [01;31m[K^~~~~~~~[m[K
+[1.936s] make[2]: *** [CMakeFiles/square_odom.dir/build.make:63: CMakeFiles/square_odom.dir/src/square_odom.cpp.o] Error 1
+[1.936s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/square_odom.dir/all] Error 2
+[1.936s] make: *** [Makefile:141: all] Error 2
+[1.938s] Invoked command in '/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory' returned '2': /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory -- -j6 -l6
