@@ -1,0 +1,17 @@
+[0.019s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory -- -j6 -l6
+[0.061s] [35m[1mScanning dependencies of target square_odom[0m
+[0.084s] [ 50%] [32mBuilding CXX object CMakeFiles/square_odom.dir/src/square_odom.cpp.o[0m
+[1.185s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.185s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:59:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kpublisher[m[K’
+[1.185s]    59 |     message.angular.z = 0.1
+[1.185s]       |                            [01;31m[K^[m[K
+[1.185s]       |                            [32m[K;[m[K
+[1.185s]    60 |     [32m[Kpublisher[m[K->publish(message);
+[1.185s]       |     [32m[K~~~~~~~~~[m[K               
+[1.185s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:41:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear_iterations[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.185s]    41 |   double [01;35m[Klinear_iterations[m[K = 1 / (0.01 * linear_speed);
+[1.185s]       |          [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[2.601s] make[2]: *** [CMakeFiles/square_odom.dir/build.make:63: CMakeFiles/square_odom.dir/src/square_odom.cpp.o] Error 1
+[2.601s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/square_odom.dir/all] Error 2
+[2.601s] make: *** [Makefile:141: all] Error 2
+[2.603s] Invoked command in '/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory -- -j6 -l6

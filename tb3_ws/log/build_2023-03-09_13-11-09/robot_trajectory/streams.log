@@ -1,0 +1,17 @@
+[0.015s] Invoking command in '/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory': /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory -- -j6 -l6
+[0.054s] [35m[1mScanning dependencies of target square_odom[0m
+[0.076s] [ 50%] [32mBuilding CXX object CMakeFiles/square_odom.dir/src/square_odom.cpp.o[0m
+[1.259s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.260s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:37:45:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K/[m[K’ token
+[1.260s]    37 |   node->declare_parameter("angular_speed",  [01;31m[K/[m[K 20);
+[1.260s]       |                                             [01;31m[K^[m[K
+[1.271s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:45:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear_iterations[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.271s]    45 |   double [01;35m[Klinear_iterations[m[K = 1 / (0.01 * linear_speed);
+[1.271s]       |          [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[1.271s] [01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:46:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangular_iterations[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.272s]    46 |   double [01;35m[Kangular_iterations[m[K = (M_PI/2) / (0.01 * angular_speed);
+[1.272s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.779s] make[2]: *** [CMakeFiles/square_odom.dir/build.make:63: CMakeFiles/square_odom.dir/src/square_odom.cpp.o] Error 1
+[2.779s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/square_odom.dir/all] Error 2
+[2.779s] make: *** [Makefile:141: all] Error 2
+[2.781s] Invoked command in '/home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory' returned '2': /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2117/tb3_ws/build/robot_trajectory -- -j6 -l6

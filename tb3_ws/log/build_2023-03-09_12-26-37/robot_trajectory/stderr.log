@@ -1,0 +1,13 @@
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:59:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kpublisher[m[K’
+   59 |     message.angular.z = 0.1
+      |                            [01;31m[K^[m[K
+      |                            [32m[K;[m[K
+   60 |     [32m[Kpublisher[m[K->publish(message);
+      |     [32m[K~~~~~~~~~[m[K               
+[01m[K/home/usuario/Documentos/GitHub/IR2117/tb3_ws/src/robot_trajectory/src/square_odom.cpp:41:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear_iterations[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   41 |   double [01;35m[Klinear_iterations[m[K = 1 / (0.01 * linear_speed);
+      |          [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/square_odom.dir/build.make:63: CMakeFiles/square_odom.dir/src/square_odom.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/square_odom.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
